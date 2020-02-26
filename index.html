@@ -15,9 +15,23 @@
 <div class="ui fixed top four item borderless nav menu">
   <div class="ui container">
     <a class="item">E KOMO MAI</a>
-    <a class="item">SHOP</a>
+    <div class="ui simple dropdown item">
+      <div class="text">SHOP&nbsp</div>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <div class="item">MEN'S</div>
+        <div class="item">WOMEN'S</div>
+        <div class="item">KIDS</div>
+      </div>
+    </div>
     <a class="item">NEWS</a>
-    <a class="item">CONTACT</a>
+    <div class="ui dropdown fitted item">
+      <div class="text">MY CART&nbsp</div>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <div class="item">YOUR CART IS CURRENTLY EMPTY</div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -87,6 +101,10 @@
     </div>
   </div>
 </div>
+
+<script>
+  $('.ui.dropdown').dropdown();
+</script>
 
 </body>
 </html>
