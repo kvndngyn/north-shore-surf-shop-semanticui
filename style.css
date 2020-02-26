@@ -1,0 +1,59 @@
+.ui.fixed.top.four.item.borderless.nav.menu {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  font-size: 15px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.image-background {
+  background: url("https://images.squarespace-cdn.com/content/v1/5448dbc6e4b09edc336ae843/1562383722801-KAN7WOHT5MVHTQGDRYJR/ke17ZwdGBToddI8pDm48kHH9S2ID7_bpupQnTdrPcoF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0nQwvinDXPV4EYh2MRzm-RRB5rUELEv7EY2n0AZOrEupxpSyqbqKSgmzcCPWV5WMiQ/IMG_6397.jpg?format=1000w") no-repeat;
+  background-size: cover;
+  max-height: 400px;
+  background-position: 25% 25%;
+}
+
+.ui.vertical.left.segment {
+  padding: 123px 50px 123px 50px;
+}
+
+.ui.vertical.center.segment {
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: lighter;
+  text-align: center;
+  border: none;
+  color: #555;
+}
+
+h2, h3 {
+  color: white;
+  font-family: Raleway;
+  font-size: 34px;
+  font-weight: 100;
+}
+
+h4, h5 {
+  margin: 0px 0px 0px 0px;
+}
+
+.ui.content.container {
+  margin: 90px 0px 90px 0px;
+}
+
+.ui.medium.image {
+  width: 240px;
+  height: 300px;
+}
+
+.ui.image.grid.container {
+  width: 419px;
+}
+
+.footer-background {
+  background-color: #555;
+  height: 140px;
+  padding: 20px 0px 20px 0px;
+  color: white;
+}
